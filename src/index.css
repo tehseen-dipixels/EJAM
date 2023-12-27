@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.carousel-review{
+  overflow: scroll;
+}
+.carousel-review ul {
+  display: flex;
+  width: 320px;
+}
+.carousel-review::-webkit-scrollbar {
+  display: none;
+}
+.carousel-container ul {
+  display: flex;
+  width: 400%;
+}
+.carousel-container {
+  overflow: scroll;
+}
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+.carousel-item-padding-40-px{
+  list-style: none;
+}
+.carousel-btn  {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #D5262A;
+  border-radius: 30px;
+  margin: 0px 10px;
+}
