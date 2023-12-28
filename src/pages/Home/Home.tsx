@@ -30,7 +30,7 @@ const Home = () => {
           <div className='hidden lg:flex justify-center items-center bg-green w-10 h-10 rounded-full'>
             <FaCheck size={22} color="#fff" />
           </div>
-          <div className='text-sm mt-2 md:mt-0 md:ml-2 lg:hidden'>Cart Review</div>
+          <div className='text-xs mt-2 md:mt-0 md:ml-2 lg:hidden'>Cart Review</div>
           <div className='hidden lg:flex text-md ml-4'>Step 1: Cart Review</div>
         </div>
         <div className='flex flex-col md:flex-row md:justify-center items-center'>
@@ -40,7 +40,7 @@ const Home = () => {
           <div className='hidden lg:flex justify-center items-center bg-green w-10 h-10 rounded-full'>
             <FaCheck size={22} color="#fff" />
           </div>
-          <div className='text-sm mt-2 md:mt-0 md:ml-2 lg:hidden'>Checkout</div>
+          <div className='text-xs mt-2 md:mt-0 md:ml-2 lg:hidden'>Checkout</div>
           <div className='hidden lg:flex text-md ml-4'>Step 2: Checkout</div>
         </div>
         <div className='flex flex-col md:flex-row md:justify-center items-center'>
@@ -50,7 +50,7 @@ const Home = () => {
           <div className='hidden lg:flex justify-center items-center bg-blue w-10 h-10 rounded-full text-white text-lg'>
             3
           </div>
-          <div className='text-sm mt-2 md:mt-0 md:ml-2 lg:hidden'>Special Offer</div>
+          <div className='text-xs mt-2 md:mt-0 md:ml-2 lg:hidden'>Special Offer</div>
           <div className='hidden lg:flex text-md ml-4 font-black'>Step 3: Special Offer</div>
         </div>
         <div className='flex flex-col md:flex-row md:justify-center items-center'>
@@ -60,7 +60,7 @@ const Home = () => {
           <div className='hidden lg:flex justify-center items-center border-blue border-2 w-10 h-10 text-lg rounded-full text-blue'>
             4
           </div>
-          <div className='text-sm mt-2 md:mt-0 md:ml-2 lg:hidden'>Special Offer</div>
+          <div className='text-xs mt-2 md:mt-0 md:ml-2 lg:hidden'>Special Offer</div>
           <div className='hidden lg:flex text-md ml-4'>Step 4: Special Offer</div>
         </div>
       </div>
