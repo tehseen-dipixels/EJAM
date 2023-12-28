@@ -22,6 +22,7 @@ const Home = () => {
       <div className='text-base lg:text-2xl text-lightGray text-center mt-4 font-manrope'>
         Lorem ipsum dolor sit amet, consectetur adipiscing
       </div>
+      {/* Progress Bar */}
       <div className='flex justify-between items-center my-10'>
         <div className='flex flex-col md:flex-row md:justify-center items-center'>
           <div className='flex lg:hidden justify-center items-center bg-green w-6 h-6 rounded-full'>
@@ -64,7 +65,7 @@ const Home = () => {
           <div className='hidden lg:flex text-md ml-4'>Step 4: Special Offer</div>
         </div>
       </div>
-
+      {/* Mobile view title */}
       <div className='lg:hidden text-center text-3xl leading-9'>
         <span className='text-blue'>ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span className='text-blue'>$14 Each</span> ($84.00 Total!)
       </div>
@@ -72,8 +73,9 @@ const Home = () => {
 
       <div className='flex flex-col lg:flex-row lg:bg-bgColor rounded-xl lg:justify-evenly lg:py-10'>
         <div className='lg:w-5/12'>
+          {/* Product image */}
           <img className='rounded-md mb-4 mt-6 lg:my-0' src={ProductImage} alt="Product Image" />
-
+          {/* Client Review start */}
           <div className='mt-8 rounded-md p-8 bg-white hidden lg:flex lg:flex-col'>
             <div className='flex items-center'>
               <img src={ClientImage1} alt="Client Review image" />
@@ -100,13 +102,16 @@ const Home = () => {
               “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.”
             </div>
           </div>
+          {/* Client Review end */}
         </div>
 
         <div className='lg:w-6/12'>
           <div className='text-left text-3xl leading-9 hidden lg:flex'>
+            {/* Web title */}
             <div><span className='text-blue'>ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span className='text-blue'>$14 Each</span> ($84.00 Total!)</div>
           </div>
           <div className='flex mt-5 relative'>
+            {/* Product details start */}
             <img className='w-24 lg:w-28 lg:h-32' src={ProductImageSM} alt="Clarifion Air Ionizer Image" />
             <div className='w-44 ml-4'>
               <div className='font-bold lg:font-normal text-md'>Clarifion Air Ionizer</div>
@@ -117,7 +122,6 @@ const Home = () => {
                 <FaStar className='mr-1' size={14} color="#FFC000" />
                 <FaStar className='mr-1' size={14} color="#FFC000" />
               </div>
-
               <div>
                 <div className='flex mt-4'>
                   <input type="radio" name="fav_language" checked />
@@ -141,7 +145,7 @@ const Home = () => {
           <div className='text-xs lg:hidden relative md:text-base text-lightGray text-center mt-4 mb-6 font-manrope'>
             Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.
           </div>
-
+          {/* Product details checklist */}
           <div className='flex mt-4 lg:mt-6 items-center'>
             <FaCheck className='w-10' size={22} color="#2C7EF8" />
             <div className='text-sm text-lightGray'>
@@ -160,6 +164,7 @@ const Home = () => {
               <span className='font-bold'>Perfect for every room</span> in all types of places.
             </div>
           </div>
+          {/* Product save discount card */}
           <div className='flex bg-lightBlue rounded-xl justify-evenly items-center py-3 my-8'>
             <div className='bg-blue p-1 rounded-3xl h-7'>
               <AiOutlinePercentage color="#fff" size={18} />
@@ -168,10 +173,12 @@ const Home = () => {
               Save <span className='text-blue'>53%</span> and get <span className='text-blue'>6 extra Clarifision</span> for only <span className='text-blue'>$14 Each</span>.
             </div>
           </div>
+          {/* Product claim discount button */}
           <button className='w-full bg-secondary flex justify-center items-center text-white text-md lg:text-xl rounded-full py-5'>
             YES-CLAIM MY DISCOUNT
             <IoArrowForward className='ml-4' size={22} color='#fff' />
           </button>
+          {/* Order feature items */}
           <div className='border-2 rounded-md p-4 my-4 lg:flex lg:justify-between'>
             <div className='text-lightGray text-xs lg:text-sm w-24 hidden lg:flex'>Free Shipping</div>
             <div className='flex  border-b-2  lg:border-none pb-3 lg:pb-0'>
