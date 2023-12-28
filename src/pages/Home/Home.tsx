@@ -15,7 +15,7 @@ import { MdStarRate } from "react-icons/md";
 
 const Home = () => {
   return (
-    <div className='md:py-0 px-3 md:px-0 w-11/12 md:w-5/6 bg-bgColor md:bg-none lg:mb-14 lg:py-12 lg:px-6 rounded-lg'>
+    <div className='md:py-0 px-3 md:px-0 w-11/12 md:w-5/6 bg-bgColor lg:bg-white md:bg-none lg:mb-14 lg:py-12 lg:px-12 rounded-lg'>
       <div className='mt-12 lg:mt-0 text-4xl lg:text-5xl text-center'>
         Wait! Your Order In Progress.
       </div>
