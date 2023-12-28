@@ -84,7 +84,7 @@ const Header = () => {
     </Carousel>
   )
   const highlightJSX = () => (
-    <div className='flex justify-evenly'>
+    <div className='flex justify-evenly w-full'>
       {
         offerArray.map((v, i) => (
           <div className='flex justify-center items-center'>
@@ -119,9 +119,16 @@ const Header = () => {
   return (
     <div>
       <div className='bg-primary relative p-5'>
-        {
-          window?.outerWidth <= 1023 ? carouselJSX() : highlightJSX()
-        }
+        <div className='lg:hidden'>
+          {
+            carouselJSX()
+          }
+        </div>
+        <div className='hidden lg:flex'>
+          {
+            highlightJSX()
+          }
+        </div>
       </div>
       <div className='flex bg-white justify-between items-center my-5 mx-4 xl:my-8 md:mx-10 xl:mx-32 '>
         <img className='w-28 md:w-48' src={BrandLogo} alt="Clarifion Logo" />

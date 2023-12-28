@@ -8,7 +8,9 @@ const Layout = ({ children }: ChildProps) => {
   return (
     <div>
       <Header />
-      {children}
+      <div className='w-full flex justify-center flex-col items-center bg-bgColor lg:bg-white pb-6 lg:pb-0'>
+        {children}
+      </div>
       <Footer />
     </div>
   )
